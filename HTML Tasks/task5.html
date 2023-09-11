@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-5</title>
+    <style>
+        h1 {
+          color: rgb(44, 60, 239);
+        }
+        form {
+          border: 1px solid black;
+        }
+      </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="">
+        <label for="first-name">First Name</label>
+        <input type="text" name="first-name" id="first-name">
+        <hr><br><br>
+        <label for="last-name">Last Name</label>
+        <input type="text" name="last-name" id="last-name">
+        <hr><br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <hr><br><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required>
+        <hr><br><br>
+        <label for="re-password">Re-enter Password</label>
+        <input type="password" name="re-password" id="re-password" required>
+        <hr><br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="gender">
+        <label for="male">Male</label>
+        <input type="radio" name="female" id="female">
+        <label for="female">Female</label>
+        <br><hr><br>
+        <label for="age">Age:</label>
+        <input type="number" name="number" id="number">
+        <hr><br><br>
+        <label for="phone-number">Phone Number</label>
+        <input type="tel" name="phone" id="phone">
+        <br><hr><br>
+        <label for="address">Address</label>
+        <textarea name="address" id="address" cols="30" rows="4"></textarea>
+        <br><hr><br>
+        <label for="state">State</label>
+        <input type="text" name="state" id="state">
+        <br><hr><br>
+        <label for="country">Country</label>
+        <select name="country" id="country">
+            <option value="choose">Choose your country</option>
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+        </select>
+        <br><hr><br>
+        <label for="language">Languages known</label>
+        <label for="english"><input type="checkbox" name="languages[]" id="english">English</label>
+        <label for="kannada"><input type="checkbox" name="languages[]" id="kannada">Kannada</label>
+        <label for="hindi"><input type="checkbox" name="languages[]" id="hindi">Hindi</label>
+        <label for="telugu"><input type="checkbox" name="languages[]" id="telugu">Telugu</label>
+        <br><hr><br>
+        <input type="checkbox" name="declaration" id="declaration" required>
+        <label for="declaration">Hereby I declare all the given details are true</label>
+        <br><hr><br>
+        <p>Log in to</p><a href="https://ethnus.com/" target="_blank"> Ethnus</a> website<br><br>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
